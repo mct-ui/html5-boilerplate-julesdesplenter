@@ -24,9 +24,6 @@ padding: 24px 24px 0;
 }
 
 img{
-    border-style: groove;
-    border-width: 20px;
-    border-color: green;
     max-width: 100%;
     vertical-align: top;
 }
@@ -168,14 +165,15 @@ a:active{
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 @media (min-width: 992px) {
-html{
-    padding: 48px 48px 24px;
-}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-html{
-    padding: 48px 48px 24px;
+
 }
+
+body{
+    max-width: 56em;
+    margin: 0 auto;
 }
