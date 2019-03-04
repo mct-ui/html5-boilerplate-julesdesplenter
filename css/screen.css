@@ -17,12 +17,6 @@ padding: 24px 24px 0;
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-    background: #e85e00;
-    color:white;
-    text-shadow: none;
-}
-
 ::selection {
     background: #e85e00;
     color:white;
@@ -35,4 +29,42 @@ img{
     border-color: green;
     max-width: 100%;
     vertical-align: top;
+}
+
+h1{
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 48px;
+}
+
+h2{
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+h2{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure{
+    margin: 0 0 24px;
 }
