@@ -1,0 +1,9 @@
+body{
+    background: hotpink;
+}
+
+img{
+    border-style: groove;
+    border-width: 20px;
+    border-color: green;
+}
