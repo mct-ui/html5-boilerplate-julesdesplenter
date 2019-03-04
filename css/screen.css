@@ -30,6 +30,24 @@ img{
     max-width: 100%;
     vertical-align: top;
 }
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+
+
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+
+}
 
 h1{
     font-family: "Times New Roman", serif;
@@ -65,6 +83,56 @@ ul,
 dl,
 table,
 address,
-figure{
+figure,
+blockquote,
+hr{
     margin: 0 0 24px;
+}
+
+figcaption{
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: grey;
+}
+blockquote{
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    font-family: "New Times Roman", serif;
+}
+blockquote *{
+    font-size: inherit;
+    line-height: inherit;
+}
+
+}
+
+ul,
+ol {
+    padding-left: 24px;
+}
+
+li ul,
+li ol{
+    margin-bottom: 0;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+}
+a {
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
+}
+
+a:visited,
+a:active{
+    color: BlueViolet;
+}
+
+a:hover,
+a:active{
+    color: crimson;
 }
